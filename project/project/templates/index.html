@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Trading Dashboard</title>
+    <link rel="stylesheet" href="static\style.css">
+</head>
+
+<body>
+    <div class="tradingview-widget-container">
+        <div id="chart"></div>
+        <div class="tradingview-widget-copyright">
+            <a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank">
+                <span class="blue-text">
+                    Track all markets on TradingView
+                </span>
+            </a>
+        </div>
+    </div>
+
+    <script src="https://s3.tradingview.com/tv.js"></script>
+    <script src="static\script.js"></script>
+
+    <!-- Right Panel: AI Profitability & Signals -->
+    <div class="info-panel">
+        <h2>AI Profitability: <span id="accuracy">--%</span></h2>
+        <h2>Latest Action: <span id="action">--</span></h2>
+
+        <h2>Trade Alerts</h2>
+        <ul id="tradeLog"></ul>
+    </div>
+    </div>
+
+    <script src="static\script.js"></script>
+</body>
+
+</html>
